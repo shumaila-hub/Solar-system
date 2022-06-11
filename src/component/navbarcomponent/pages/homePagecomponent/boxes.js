@@ -11,22 +11,23 @@ import Output from '../../../../static/images/icons/Output-Icon.jpg';
 import './boxes.css';
 function Boxes() {
     return (
-        <div className=' m-0 p-0 '>
-            <div> <h1 className=' text-center text-4xl font-semibold  border-primary m-auto justify-center'> <a href='#'> Software Features</a> </h1></div>
+        <div className=' m-10 p-0  '>
+            <div className=''> <h1 className=' text-center text-4xl font-semibold  border-primary m-auto justify-center mb-5  '> <a href='#'> Software Features</a> </h1></div>
 
             <div className=' main-div-box mr-3  lg:grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1 sm:h-4/5 sm:w-full relative max-w-7xl h-80'>
 
-                <div className='box overflow-hidden bg-cover box-border m-4 float-left rounded-xl object-center relative '>
+                <div className='box  overflow-hidden bg-cover box-border m-4 float-left rounded-xl object-center relative '>
+
 
                     <div className='icon  '>
-                        <img className='box-img1  ' src={icon1} />
+                        <img className='box-img1' src={icon1} />
                     </div>
                     <div className='content'>
                         <h3 className='m-0 p-0 text-white  text-sm lg:text-xl'>Deatiled Battery Models</h3>
                         <p className='m-0 p-0 text-white  text-xs'>Detailed analytics including sizing optimization, State of Health (SoH) profiles, Round Trip Efficiency (RTE) and more! </p>  </div>
-
                 </div>
-                <div className='box bg-gradient-to-r from-indigo-500 overflow-hidden bg-cover box-border m-4 float-left rounded-xl object-center relative '>
+
+                <div className='box  overflow-hidden bg-cover box-border m-4 float-left rounded-xl object-center relative '>
                     <div className='icon'>
                         {/* <h3> our software</h3> */}
                         <img className='box-img1' src={icon2} /> </div>

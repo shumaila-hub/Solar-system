@@ -4,18 +4,18 @@ function Bottom() {
     const texts = ['Storlytics leverages more than 20 years of battery energy storage projects development to simplify modeling BESSs', ' Input CSV format files for expected battery dispatch profile ',
         'Specify the number of battery modules, racks and inverters to match power and energy needed in provided Point of Interconnect (POI) profile using the "Sizing Assist Tool"', ' Simulate performance of specified battery energy storage system and plug and chug designs to reach optimal performance" ', ' Simulate performance of specified battery energy storage system and plug and chug designs to reach optimal performance" ', 'Create CSV files with 8760s (Hourly or sub-hourly) of important system parameters like power flow at battery, inverter and point of interconnect (POI)'];
 
-    return (<div>
+    return (<div className=' '>
         <div className=' w-full  lg:flex lg:flex-row md:flex md:flex-col flex-wrap  '>
             <div className=' lg:w-1/2 md:flex md:flex-col md:w-full sm:w-full sm:mt-10 lg:mt40   '>
                 <div className='lg:p-24 lg:pr-10 md:p-10  p-5 lg:mt-0 '>
 
-                    <h1 className='headingcolor z-10  text-left leading-normal font-semibold lg:text-4xl lg:mt-10 text-3xl'> Energy Storage Systems Modeling Simplified</h1>
+                    <h1 className='headingcolor z-10  text-left leading-normal font-semibold lg:text-4xl lg:mt-10 text-3xl mb-5'> Energy Storage Systems Modeling Simplified</h1>
 
-                    <p className=' textcolor text-left z-10 leading-normal inline-block p-2 ' >
+                    <p className=' list-outside textcolor text-left z-10 leading-normal inline-block ' >
 
                         Storlytics leverages more than 20 years of battery energy storage projects development to simplify modeling BESSs 
-                        <div>
-                            {texts.map(text => <li className=' hover:shadow-lg lg:p-4 md:p-2 p-1'> {text}  </li>)}
+                        <div className=''>
+                            {texts.map(text => <li className=' hover:shadow-lg leading-9 '> {text}  </li>)}
                         </div>
                     </p>
 

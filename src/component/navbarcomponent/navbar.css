@@ -1,12 +1,10 @@
 .navbar {
-    /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-     */
      background-color: #f8f9fa;
     height: 100px;
     display: flex;
     justify-content: end;
     align-items: center;
-    font-size: 0.9rem;
+  
   }
  
   .navbar-logo {
@@ -15,10 +13,8 @@
     cursor: pointer;
     text-decoration: none;
     width: 60%;
-    padding: 20px;
+    padding: 30px;
   }
-  
-  
   
   .nav-menu {
     float: right;
@@ -29,24 +25,26 @@
     width: 70vw;
     justify-content: center;
     margin-right: 2rem;
-    font-size: 0.9rem;
-    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+
+    font-weight: 600;
+  
   }
   
   .nav-item {
     display: flex;
     align-items: center;
     height: 80px;
+    
   }
   
   .nav-links {
     color: black;
-    width: 107px;
+    width: 140px;
     height: 30px;
     text-decoration: none;
-    /* padding: 1.5rem 2rem; */
-    margin: 1.5rem 1rem;
-    /* margin-right: 10px; */
+    margin: 1.5rem 0rem;
     padding-left: 0;
     float: right;
   }
