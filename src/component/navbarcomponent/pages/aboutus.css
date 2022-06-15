@@ -1,0 +1,82 @@
+
+.text1{
+    color: rgb(122, 122, 122);
+    font-size:  1.125rem;
+}
+.aboutus-circle1{
+    /* margin-right: 38rem; */
+    background-image: url('../../../static/images//OIP.jpg');
+    opacity: 1;
+}
+.aboutus-circle2{
+    /* margin-right: 32rem; */
+    background-image: url(../../../static//images/OIP\ \(1\).jpg);
+}
+.aboutus-circle3{
+    /* margin-right: 32rem; */
+   
+    background-image: url('../../../static//images/Panel-solar-800x420.jpeg');
+}
+.aboutus-circle4{
+    /* margin-right: 41rem; */
+    background-image: url('../../../static//images/OIP\ \(2\).jpg');
+}
+@media (max-width: 1024px) {
+    .aboutus-circle4{
+        margin-right: 51rem;}
+
+    
+}
+@media screen and (min-width: 320) {
+    .img1{
+        height: 500px;
+    }
+    
+}
+.aboutus-circle1 .aboutus-content{
+    height: calc(50% - 50%);
+    width: calc( 350% - 0%);
+    transition: 0.5s;
+}
+.aboutus-circle1:hover .aboutus-content{
+    top: 100px;
+    opacity: 1;
+}
+.aboutus-circle2 .aboutus-content{
+    height: calc(50% - 50%);
+    width: calc( 250% - 0%);
+}
+.aboutus-circle2:hover .aboutus-content{
+    top: 100px;
+    opacity: 1;
+}
+.aboutus-circle3 .aboutus-content{
+    height: calc(50% - 50%);
+    width: calc( 250% - 0%);
+
+}
+.aboutus-circle3:hover .aboutus-content{
+    top: 100px;
+    opacity: 1;
+}
+.aboutus-circle4 .aboutus-content{
+    height: calc(50% - 50%);
+    width: calc( 350% - 0%);
+}
+.aboutus-circle4:hover .aboutus-content{
+    top: 100px;
+    opacity: 1;
+}
+
+
+
+.green-color{
+   color: #04ac4e ; 
+}
+.bg-green-color{
+    background-color: #04ac4e;
+ }
+ .aboutus-content p{
+    color: gray;
+ }
+ 

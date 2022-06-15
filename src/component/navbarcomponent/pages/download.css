@@ -5,14 +5,8 @@
     color: gray;
     /* font-size:  0.85rem; */
 }
-.heading{
-    color: rgb(57, 125, 184);
-}
 @media screen and (min-width : 320) {
     .heading{
         margin-top: 60px;
     }
-    /* .btn2{
-        margin-bottom: 60px;
-    } */
 }

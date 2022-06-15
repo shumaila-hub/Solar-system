@@ -10,15 +10,17 @@ function Bottom() {
     return (
     <div data-aos='fade-up'>
         <Midsection/>
-    <div data-aos='fade-up' className=' w-full m-auto text1 container lg:ml-10 lg:mr-0 pr-5 pl-5' >
-        <h1 className=' text-center font-semibold text-sky-600 xl:text-4xl mb-10 lg:text-4xl md:text-3xl sm:text-2xl text-2xl '> Required Computer Configuration</h1>
+    <div data-aos='fade-up' className=' flex flex-col justify-center items-center w-full m-auto text1 container lg:ml-10 lg:mr-0 pr-5 pl-5 mt-5' >
+
+        <div> <h1 className='font-semibold heading-color xl:text-4xl mb-10 lg:text-4xl md:text-3xl sm:text-2xl text-2xl primary-border border-b-4 mt-5'> Required Computer Configuration</h1> </div>
+       
         <div className=' flex flex-col m-auto pb-10  lg:ml-10 text-base'>
             <div className=' flex flex-row border  border-b-0 bg-gray-200 shadow-inner ' >
                 <div className=' w-1/4 m-auto  text-center'>
                     Operating System
                 </div>
                 <div className=' w-3/4 bg-gray-200 '>
-                    <ul className=' text-left z-10 leading-8 mt-0 inline-block border-l-2 p-5  '>
+                    <ul className=' text-left z-10 leading-10 mt-0 inline-block border-l-2 p-5  '>
                         <li className=' hover:shadow-md '> <i class="fa-solid fa-circle"></i> All Windows client versions currently supported by Microsoft: Windows 8, Windows 10 (32-bit or 64-bit)
                         </li>
                         <li className='hover:shadow-md'> <i class="fa-solid fa-circle"></i>Up-to-date Windows 7 systems
@@ -34,7 +36,7 @@ function Bottom() {
                 OS not supported: 
                 </div>
                 <div className=' w-3/4 '>
-                    <ul className=' text-left z-10 leading-8 mt-0 inline-block border-l-2 p-5'>
+                    <ul className=' text-left z-10 leading-10 mt-0 inline-block border-l-2 p-5'>
                         <li className=' hover:shadow-md '> <i class="fa-solid fa-circle"></i> Windows servers, Application servers (Citrix, ZenDesktop, ZenApp)
                         </li>
 
@@ -48,7 +50,7 @@ function Bottom() {
                <div> Other requirements</div>
                 </div>
                 <div className=' w-3/4 '>
-                    <ul className=' text-left z-10 leading-8 mt-0 inline-block border-l-2 p-5 '>
+                    <ul className=' text-left z-10 leading-10 mt-0 inline-block border-l-2 p-5 '>
                         <li className=' hover:shadow-md '> <i class="fa-solid fa-circle"></i> At least 1 GB of RAM
                         </li>
                         <li className='hover:shadow-md '> <i class="fa-solid fa-circle"></i>At least 1 GB of free hard drive space

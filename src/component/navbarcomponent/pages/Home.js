@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react';
+import React, { useEffect } from 'react';
 // import '../../App.css';
 import bckvideo from '../../../static/video/background.mp4';
 import './home.css';
@@ -10,43 +10,45 @@ import Aos from 'aos';
 import '../../../../node_modules/aos/dist/aos.css';
 
 export default function Home() {
-useEffect(() => {
-  Aos.init({duration: 2000});
-}, []);
-  
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <div >
-      <div className=' w-full h-full'> 
-      <video muted loop autoPlay className=' videobg w-full absolute -z-10 object-cover ' src={bckvideo} >
-       
-     
-      </video>
+      <div className=' w-full h-full'>
+        <video muted loop autoPlay className='mt-24 xl:mt-0 lg:mt-0 md:mt-0 videobg w-full absolute opacity-80  object-cover h-auto ' src={bckvideo} >
+        </video>
+        <div className='w-full absolute bg-gradient-to-r from-red-700  opacity-60 mt-24 xl:mt-0 lg:mt-0 md:mt-0 z-50 '>
+
+        </div>
       </div>
 
-      <div data-aos='fade-up' className='w-full flex lg:flex-row flex-col '>
+      <div data-aos='fade-up' className='flex lg:flex-row flex-col xl:mb-0 xl:pb-0 md:mb-32  md:p-20 sm:p-16 p-10 pt-0 pb-0 mb-32 sm:mb-10 homepage-heading'>
 
-        <h1 className=' uppercase font-semibold text-3xl  text-white  w-full m-auto pt-0  p-5
-        lg:text-left lg:p-20 lg:pl-40 lg:pr-0 lg:leading-10 lg:pb-0  lg:text-5xl lg:mt-60 lg:mb-10   lg:w-1/2
-        xl:text-7xl xl:mt-60 xl:mb-20
-         md:text-4xl md:mt-40 md:p-20 md:pb-0  md:mb-0 md:m-auto
-         sm:mt-32 sm:p-10 sm:pb-0  mt-32 '>
+        <h1 className='  uppercase font-semibold  text-white w-full m-auto pt-0 
+        lg:text-left lg:p-10 lg:pr-0 xl:pb-0 lg:leading-10 md:leading-8  leading-normal lg:pb-0  lg:text-5xl lg:mt-40   lg:w-1/2
+        xl:text-6xl xl:mt-52 xl:mb-40
+         md:text-4xl md:mt-24
+         sm:mt-40    mt-40 text-2xl  '>
           Energy Storage Made Simple
 
         </h1>
-        <div className='lg:w-1/2 w-full xl:mt-80 xl:mb-20 lg:mt-80 lg:mb-0 lg:m-auto text-white  flex pl-2 flex-col justify-center md:p-20 md:m-auto md:pt-5  sm:p-10 '>
-          <p className=' lg:text-2xl md:text-xl xl:text-2xl text-lg '>
+        <div className='lg:w-1/2 w-full xl:mt-52 xl:mb-60 lg:mt-52 lg:mb-0 lg:m-auto text-white  flex  flex-col justify-center xl:p-10 lg:pt-0 lg:pr-0 lg:leading-10 xl:leading-10 md:leading-8 leading-4 '>
+          <p className=' lg:text-2xl md:text-2xl xl:text-2xl text-base xl:pl-10  xl:pr-10  '>
             A Power Simulation Tool for Modeling Battery Energy Storage Systems
 
-          </p>
 
-          <div className='flex flex-row lg:mt-5 mt-5 md:mt-4 w-full   '>
-            <button className=' bg-sky-600 lg:text-lg lg:w-48 lg:h-12 md:w-40 md:h-10 sm:w-36 rounded-lg  '>
+          </p>
+          <div className='flex flex-row lg:mt-5 xl:mt-5 md:mt-4 mt-2 w-full xl:justify-center lg:justify-center md:justify-start sm:justify-start  justify-start '>
+            <button className=' xl:leading-10 lg:leading-10 leading-normal cursor-pointer bg-sky-600 lg:text-lg lg:w-52 lg:h-12 md:w-48 md:h-10  rounded-lg w-40 h-10 sm:ml-4 mr-4 mt-0 lg:mt-4 text-center sm:mt-0 text-base sm:w-40   '>
               Download Now!
             </button>
-            <button className='bg-sky-600 sm:ml-4 mr-4 mt-4 sm:mt-0 lg:text-lg lg:w-48 lg:h-12 md:w-40 md:h-10 rounded-lg  '>
+            <button className=' xl:leading-10 lg:leading-10 leading-normal bg-sky-600 cursor-pointer sm:ml-4 mr-4 lg:mt-4 mt-0 sm:mt-0 lg:text-lg lg:w-52 lg:h-12 md:w-48 sm:w-40 md:h-10  rounded-lg w-40 h-10 text-center text-base   '>
               Request Demo
             </button>
           </div>
+
 
 
         </div>
@@ -56,7 +58,7 @@ useEffect(() => {
       <div data-Aos='fade-up' >  <MidSection /></div>
       <div data-Aos='fade-up' > <Boxes /> </div>
       <div data-Aos='fade-up'> <Bottom /></div>
-      
+
       {/* <div> <Footer/> </div> */}
 
 

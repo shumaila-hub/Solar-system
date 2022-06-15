@@ -27,19 +27,15 @@ function Navbar() {
       setDropdown(false);
     }
   };
-
   return (
     <>
       <nav className='navbar w-full fixed z-50'>
 {/* For logo section */}
         <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-
          <img className=' navbar-logo logo' src={logo} alt="logo"/>
-
-
         </Link>
-   {/* For Navbaar */}
 
+   {/* For Navbaar */}
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
@@ -51,8 +47,6 @@ function Navbar() {
             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
               Home<i className='fas fa-caret-down' />
             </Link>
-            
-
           </li>
           
           <li
@@ -102,7 +96,7 @@ function Navbar() {
             onMouseLeave={onMouseLeave}
           >
             <Link
-              to='/about-us'
+              to='/aboutus'
               className='nav-links'
               onClick={closeMobileMenu}
             >

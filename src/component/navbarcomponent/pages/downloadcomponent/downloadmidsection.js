@@ -10,15 +10,15 @@ const text =['Storlytics is not meant to run on a server or on a Remote Desktop 
 
     return (<div data-aos='fade-up' className=' '>
 
-        <div className=' lg:h-3/4 w-full  lg:flex lg:flex-row md:flex md:flex-col flex-wrap    container lg:mt-10 '>
-            <div className=' lg:w-1/2 md:w-full lg:h-full sm:mt52 lg:mt-0 '>
-                <h1 className=' text-sky-600 xl:text-4xl lg:text-4xl md:text-3xl sm:text-2xl text-2xl font-semibold m-auto lg:p-32 lg:pr-0  md:pl-32 p-5 pr-10  mt-5'  > Installation Requirements</h1>
+        <div className=' lg:h-3/4 w-full  lg:flex lg:flex-row md:flex md:flex-col flex-wrap  lg:mt-10 md:pl-10  sm:p-10 p-10  pt-0'>
+            <div className=' lg:w-1/2 md:w-full lg:h-full sm:mt52 lg:mt-0  '>
+                <h1 className='heading-color xl:text-4xl lg:text-4xl md:text-3xl sm:text-2xl text-2xl font-semibold m-auto lg:p-32 lg:pr-0 mb-5 mt-5 '  > Installation Requirements</h1>
             </div>
             <div className=' lg:w-1/2 md:flex md:flex-col md:w-full sm:w-full  '>
 
-                <div className='lg:pl-4 text1 lg:pt-14  md:p-10 md:pl-20  lg:mt-0 list-inside text-base md:pt-2 sm:pt-2 '>
+                <div className='lg:pl-4 text1 lg:pt-14   lg:mt-0 list-inside text-base md:pt-2 sm:pt-2 '>
 
-                {text.map(text1 => <li className=' hover:shadow-md leading-8 list-inside pr-10 pl-10'> {text1}  </li>)}
+                {text.map(text1 => <li className=' hover:shadow-md leading-8 list-inside '> {text1}  </li>)}
                     
                 </div></div>
 
