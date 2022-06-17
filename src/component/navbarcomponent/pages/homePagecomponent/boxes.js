@@ -21,7 +21,7 @@ function Boxes() {
                     </div>
 
 
-                        <div className='icon  '>
+                        <div className='icon rounded-2xl '>
                             <img className='box-img1' src={icon1} />
                         </div>
                         <div className='content'>
@@ -33,7 +33,7 @@ function Boxes() {
                 <div className='box  overflow-hidden bg-cover box-border m-4 float-left rounded-xl object-center relative '>
                 <div className=' overflow-hidden bg-cover absolute object-center rounded-xl boxes bg-gradient-to-r from-indigo-400 to-green-400'>
                     </div>
-                    <div className='icon'>
+                    <div className='icon rounded-2xl'>
                         {/* <h3> our software</h3> */}
                         <img className='box-img1' src={icon2} /> </div>
                     <div className='content'>
@@ -45,7 +45,8 @@ function Boxes() {
                 <div className='box overflow-hidden bg-cover box-border m-4 float-left rounded-xl object-center relative '>
                 <div className=' overflow-hidden bg-cover absolute object-center rounded-xl boxes bg-gradient-to-r from-indigo-400 to-green-400'>
                     </div>
-                    <div className='icon'> <img className='box-img1' src={icon3} /></div>
+                    <div className='icon rounded-2xl '> 
+                    <img className='box-img1' src={icon3} /></div>
                     <div className='content'>
                         <h3 className='m-0 p-0 text-white font-semibold text-base lg:text-xl xl:text-xl md:text-xl'>Advance Analytics</h3>
                         <p className=' m-0 p-0 text-white  text-sm'>
@@ -63,7 +64,7 @@ function Boxes() {
                 <div className='box overflow-hidden bg-cover box-border m-4 float-left rounded-xl object-center relative '>
                 <div className=' overflow-hidden bg-cover absolute object-center rounded-xl boxes bg-gradient-to-r from-indigo-400 to-green-400'>
                     </div>
-                    <div className='icon absolute mt-0 ml-0 w-full h-full bg-amber-600  duration-1000 z-10 hover:mt-5 hover:w-20 hover:h-20 rounded-md hover:left-10  '>
+                    <div className='icon rounded-2xl  absolute mt-0 ml-0 w-full h-full   duration-1000 z-10 hover:mt-5 hover:w-20 hover:h-20 hover:left-10  '>
                         <img className='box-img1  absolute' src={Inverter} />
                     </div>
                     <div className='content'>
@@ -74,7 +75,7 @@ function Boxes() {
                 <div className='box overflow-hidden bg-cover box-border m-4 float-left rounded-xl object-center relative '>
                 <div className=' overflow-hidden bg-cover absolute object-center rounded-xl boxes bg-gradient-to-r from-indigo-400 to-green-400'>
                     </div>
-                    <div className='icon'>
+                    <div className='icon rounded-2xl '>
                         {/* <h3> our software</h3> */}
                         <img className='box-img1' src={BalanceofPlant} /> </div>
                     <div className='content'>
@@ -86,7 +87,7 @@ function Boxes() {
                 <div className='box overflow-hidden bg-cover box-border m-4 float-left rounded-xl object-center relative '>
                 <div className=' overflow-hidden bg-cover absolute object-center rounded-xl boxes bg-gradient-to-r from-indigo-400 to-green-400'>
                     </div>
-                    <div className='icon'> <img className='box-img1' src={reporticon} /></div>
+                    <div className='icon rounded-2xl '> <img className='box-img1' src={reporticon} /></div>
                     <div className='content'>
                         <h3 className='m-0 p-0 text-white font-semibold text-base lg:text-xl xl:text-xl md:text-xl' >Report</h3>
                         <p className=' m-0 p-0 text-white  text-sm'>
@@ -104,7 +105,7 @@ function Boxes() {
                 <div className='box overflow-hidden bg-cover box-border m-4 float-left rounded-xl object-center relative '>
                 <div className=' overflow-hidden bg-cover absolute object-center rounded-xl boxes bg-gradient-to-r from-indigo-400 to-green-400'>
                     </div>
-                    <div className='icon absolute mt-0 ml-0 w-full h-full bg-amber-600  duration-1000 z-10 hover:mt-5 hover:w-20 hover:h-20 rounded-md hover:left-10  '>
+                    <div className='icon rounded-2xl  absolute mt-0 ml-0 w-full h-full  duration-1000 z-10 hover:mt-5 hover:w-20 hover:h-20  hover:left-10  '>
                         <img className='box-img1  absolute' src={UseCase} />
                     </div>
                     <div className='content'>
@@ -115,7 +116,7 @@ function Boxes() {
                 <div className='box overflow-hidden bg-cover box-border m-4 float-left rounded-xl object-center relative '>
                 <div className=' overflow-hidden bg-cover absolute object-center rounded-xl boxes bg-gradient-to-r from-indigo-400 to-green-400'>
                     </div>
-                    <div className='icon'>
+                    <div className='icon rounded-2xl '>
                         {/* <h3> our software</h3> */}
                         <img className='box-img1' src={TimeSeries} /> </div>
                     <div className='content'>
@@ -127,7 +128,7 @@ function Boxes() {
                 <div className='box overflow-hidden bg-cover box-border m-4 float-left rounded-xl object-center relative '>
                 <div className=' overflow-hidden bg-cover absolute object-center rounded-xl boxes bg-gradient-to-r from-indigo-400 to-green-400'>
                     </div>
-                    <div className='icon'> <img className='box-img1' src={Output} /></div>
+                    <div className='icon rounded-2xl '> <img className='box-img1' src={Output} /></div>
                     <div className='content'>
                         <h3 className='m-0 p-0 text-white font-semibold text-base lg:text-xl xl:text-xl md:text-xl'>Output Data</h3>
                         <p className=' m-0 p-0 text-white  text-sm'>Results of energy storage system simulations raw data available in sub-hourly, hourly (8760s) and daily formats

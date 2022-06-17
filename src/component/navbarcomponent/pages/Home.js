@@ -17,34 +17,34 @@ export default function Home() {
   return (
     <div >
       <div className=' w-full h-full'>
-        <video muted loop autoPlay className='mt-24 xl:mt-0 lg:mt-0 md:mt-0 videobg w-full absolute opacity-80  object-cover h-auto ' src={bckvideo} >
+        <video muted loop autoPlay className=' top-10 xl:top-0 lg:top-0 md:top-0 sm:top-0 videobg w-full relative   opacity-80  object-cover  ' src={bckvideo} >
         </video>
-        <div className='w-full absolute bg-gradient-to-r from-red-700  opacity-60 mt-24 xl:mt-0 lg:mt-0 md:mt-0 z-50 '>
-
-        </div>
+        
+       
+       
       </div>
 
-      <div data-aos='fade-up' className='flex lg:flex-row flex-col xl:mb-0 xl:pb-0 md:mb-32  md:p-20 sm:p-16 p-10 pt-0 pb-0 mb-32 sm:mb-10 homepage-heading'>
+      <div data-aos='fade-up' className='flex lg:flex-row flex-col lg:p-0 lg:pl-20 lg:pr-20 xl:pl-20 xl:pr-20   md:pl-20 md:pr-20    sm:mb-0 homepage-heading absolute z-10 xl:top-2/4 lg:top-2/4  md:top-2/4 sm:top-2/4 sm:pl-10 sm:pr-10 top-28 pl-5 pr-0'>
 
-        <h1 className='  uppercase font-semibold  text-white w-full m-auto pt-0 
-        lg:text-left lg:p-10 lg:pr-0 xl:pb-0 lg:leading-10 md:leading-8  leading-normal lg:pb-0  lg:text-5xl lg:mt-40   lg:w-1/2
-        xl:text-6xl xl:mt-52 xl:mb-40
-         md:text-4xl md:mt-24
-         sm:mt-40    mt-40 text-2xl  '>
+        <h1 className='  uppercase font-semibold  text-black w-full m-auto pt-0 
+        lg:text-left  lg:pr-0 xl:pb-0 lg:leading-10 md:leading-8  leading-5 lg:pb-0  lg:text-5xl  lg:w-1/2
+        xl:text-6xl 
+         md:text-4xl 
+          text-2xl'>
           Energy Storage Made Simple
 
         </h1>
-        <div className='lg:w-1/2 w-full xl:mt-52 xl:mb-60 lg:mt-52 lg:mb-0 lg:m-auto text-white  flex  flex-col justify-center xl:p-10 lg:pt-0 lg:pr-0 lg:leading-10 xl:leading-10 md:leading-8 leading-4 '>
-          <p className=' lg:text-2xl md:text-2xl xl:text-2xl text-base xl:pl-10  xl:pr-10  '>
+        <div className='lg:w-1/2 w-full text-black flex  flex-col justify-center xl:p-10 lg:pt-0 lg:pr-0 lg:leading-10 xl:leading-10 md:leading-8 leading-4 '>
+          <p className=' lg:text-2xl md:text-2xl xl:text-2xl text-base md:mt-2   '>
             A Power Simulation Tool for Modeling Battery Energy Storage Systems
 
 
           </p>
-          <div className='flex flex-row lg:mt-5 xl:mt-5 md:mt-4 mt-2 w-full xl:justify-center lg:justify-center md:justify-start sm:justify-start  justify-start '>
-            <button className=' xl:leading-10 lg:leading-10 leading-normal cursor-pointer bg-sky-600 lg:text-lg lg:w-52 lg:h-12 md:w-48 md:h-10  rounded-lg w-40 h-10 sm:ml-4 mr-4 mt-0 lg:mt-4 text-center sm:mt-0 text-base sm:w-40   '>
+          <div className='flex flex-row lg:mt-5 xl:mt-5 md:mt-4 mt-2 w-full xl:justify-center lg:justify-center md:justify-start sm:justify-start  justify-start  text-white'>
+            <button className=' xl:leading-10 lg:leading-10 leading-normal cursor-pointer lg:text-lg lg:w-52 lg:h-12 md:w-48 md:h-10  rounded-lg w-40 sm:h-10 h-8 sm:ml-4 mr-4 mt-0 lg:mt-4 text-center sm:mt-0 text-base sm:w-40 bg-blue-600 hover:bg-blue-500 hover:opacity-90 hover:text-white  hover:shadow-slate-400   hover:shadow-2xl   '>
               Download Now!
             </button>
-            <button className=' xl:leading-10 lg:leading-10 leading-normal bg-sky-600 cursor-pointer sm:ml-4 mr-4 lg:mt-4 mt-0 sm:mt-0 lg:text-lg lg:w-52 lg:h-12 md:w-48 sm:w-40 md:h-10  rounded-lg w-40 h-10 text-center text-base   '>
+            <button  className=' bg-blue-600 xl:leading-10 lg:leading-10 leading-normal  cursor-pointer sm:ml-4 mr-4 lg:mt-4 mt-0 sm:mt-0 lg:text-lg lg:w-52 lg:h-12 md:w-48 sm:w-40 md:h-10 sm:h-10 rounded-lg w-40 h-8 text-center text-base  hover:shadow-2xl hover:bg-blue-500 hover:opacity-90 hover:text-white  hover:shadow-slate-400  '>
               Request Demo
             </button>
           </div>

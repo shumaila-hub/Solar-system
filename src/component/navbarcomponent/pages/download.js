@@ -10,22 +10,30 @@ function Download() {
         Aos.init({duration: 2000});
       }, []);
     return (<div data-aos='fade-up' >
-        <div className=' w-full absolute -z-10 '> <img className='  opacity-50 img1 w-full  lg:max-h-fit ' src={Downloadcover}  /> </div>
+        <div className=' w-full relative -z-10 '> 
+        
+        <img className='  opacity-70 img1 w-full  lg:max-h-fit ' src={Downloadcover}  />
+        <div className=' cover-gradient top-5 bg-gradient-to-r from-blue-600 to-gray-500 w-full absolute -z-50'> 
+        </div>
+        
+         </div>
 
 
-        <div data-aos='fade-up' className=' lg:flex lg:flex-row flex flex-col flex-wrap m-auto container lg:mb-20  md:mb-20 p-5'>
+        <div data-aos='fade-up' className=' absolute lg:flex lg:flex-row flex flex-col flex-wrap m-auto container  top-60 lg:pl-24 lg:pr-24 md:pl-16 md:pr-16 sm:pr-10 sm:pl-10 pl-7 pr-7'>
 
-            <h1 className='text-2xl  font-semibold xl:text-5xl lg:text-5xl lg:mb-0  lg:w-1/2 w-full xl:mt-60 lg:mt-40  mt-60 lg:pl-14 md:mt-60 md:text-4xl sm:text-3xl sm:mt-60  heading-color'>
+            <h1 className='text-2xl  font-semibold xl:text-5xl lg:text-5xl lg:mb-0  lg:w-1/2 w-full    md:text-4xl sm:text-3xl text-white'>
                 Equip yourself with the latest Storlytics software.
                 One-month free trial with full features!
 
 
             </h1>
-            <div className='mt-4 flex  text-white xl:justify-center  lg:justify-center justify-start lg:w-1/2 w-full '>
+            <div className=' flex  text-white xl:justify-center  lg:justify-center justify-start lg:w-1/2 w-full '>
 
-                <div className=' lg:mt-80 mt-0 md:mb-20  sm:mb-40 mb-48 '>
+                <div>
                   
-                        <button className='  bg-sky-600  mr-auto lg:text-lg lg:w-48 w-40 h-10 lg:h-12 md:w-40 md:h-10 sm:w-36 rounded-lg '>
+                        <button className=' lg:mt-16 md:mt-7 sm:mt-5 mt-5  bg-sky-600  mr-auto lg:text-lg lg:w-52 w-44 h-10 lg:h-12 md:w-48 md:h-10 sm:w-44 rounded-lg hover:shadow-2xl leading-10
+                        
+                        hover:bg-blue-500 hover:opacity-90 hover:text-white  hover:shadow-slate-400  cursor-pointer'>
                             <a href='#'> Click to Download </a>
                         </button>
 
@@ -36,12 +44,7 @@ function Download() {
         </div>
 
 <div data-aos='fade-up'> <Bottom/> </div>
-        
-
-
     </div>
-
-
     );
 }
 

@@ -11,22 +11,23 @@ function AboutUs() {
       }, []);
     return (<div>
         <div>
-            <div className=' w-full absolute -z-10 h-auto'> 
+            <div className=' w-full relative -z-10 h-auto'> 
             <img className='img1 w-full bg-cover opacity-60' src={aboutuscover} />
+            <div className=' cover-gradient top-5 bg-gradient-to-r from-blue-700 to-slate-200 w-full absolute -z-50'> </div>
            </div>
-            <div data-aos='fade-up' className=' lg:flex lg:flex-row flex flex-col flex-wrap m-auto container p-5 '>
-               <h1 className='text-3xl xl:text-5xl lg:text-4xl lg:mb-4 font-semibold lg:w-1/2 w-full lg:mt-60  mt-52  lg:pl-14 md:mt-72 md:mb-0 sm:mt-72   heading-color '>
+            <div data-aos='fade-up' className=' absolute lg:flex lg:flex-row flex flex-col flex-wrap m-auto  lg:top-1/2 md:top-1/2 sm:top-1/2 top-1/3  lg:pl-20 lg:pr-20 md:pl-16 md:pr-16 sm:pl-10 sm:pr-10 pl-8 pr-8  '>
+               <h1 className=' text-white text-3xl xl:text-5xl lg:text-4xl md:text-4xl  font-semibold lg:w-1/2 w-full leading-10  '>
                     WE HELP BUILD THE NEXT GENERATION ENERGY STORAGE PROJECTS
                  </h1>
-                <div className='mt-4 flex flex-wrap  text-white  lg:w-1/2 w-full '>
+                <div className='mt-4 flex flex-row  text-white  lg:w-1/2 w-full '>
 
-                    <div className='lg:mt-60 mt-0 md:mb-32  mb-20'>
-                        <div>
-                            <button className='  bg-sky-600 rounded-lg lg:text-lg lg:w-48 lg:h-12 md:w-40 md:h-10 w-40 h-10  mr-6 '>
-                                <a href='#'> Contact Us <i class="fa fa-phone" aria-hidden="true"></i> </a>
+                    <div className=' lg:mt-10'>
+                        <div className='flex lg:flex-row md:flex-row sm:flex-row flex-col'>
+                            <button className='  bg-sky-600 rounded-lg lg:text-lg lg:w-48 lg:h-12 md:w-40 md:h-10 w-40 h-10  mr-6 hover:shadow-2xl hover:bg-blue-500 hover:opacity-90 hover:text-white  hover:shadow-slate-400 '>
+                                <a href='#'> Contact Us  </a>
                             </button>
-                            <button className='  bg-sky-600 rounded-lg ml-0 sm:ml-4 mr-4 mt-4 sm:mt-0 lg:text-lg lg:w-48 lg:h-12 md:w-40 md:h-10 w-40 h-10 '>
-                                <a href='#'> Watch Video <i class="fa fa-video-camera" aria-hidden="true"></i> </a>
+                            <button className='  bg-sky-600 rounded-lg ml-0 sm:ml-4 mr-4 mt-4 sm:mt-0 lg:text-lg lg:w-48 lg:h-12 md:w-40 md:h-10 w-40 h-10 hover:shadow-2xl hover:bg-blue-500 hover:opacity-90 hover:text-white  hover:shadow-slate-400 '>
+                                <a href='#'> Watch Video  </a>
                             </button>
                         </div>
 

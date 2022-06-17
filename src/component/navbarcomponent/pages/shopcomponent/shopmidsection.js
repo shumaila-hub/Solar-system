@@ -9,14 +9,16 @@ function Midsection() {
     useEffect(() => {
         Aos.init({duration: 2000});
       }, []);
-    return (<><div data-aos='fade-up' className='main div lg:h-3/4 w-full  lg:flex lg:flex-row md:flex md:flex-col flex-wrap   lg:mt-32 md:mt-32' >
+    return (<><div data-aos='fade-up' className='main div lg:h-3/4 w-full  lg:flex lg:flex-row md:flex md:flex-col flex-wrap lg:p-20 md:p-16 sm:p-10 p-7 ' >
         <div className=' lg:w-1/2 md:w-full lg:h-full  '>
-            <img className=' lg:p-0 sm:p-5 sm:pb-0 container lg:w-3/4 w-3/5 lg:ml-32 lg:mt-20 md:m-auto md:mt-10 sm:mt-10 sm:m-auto m-auto mt-0 ' src={computerimg} />
+            <img className=' lg:w-full w-full lg:mt-20 ' src={computerimg} />
         </div>
         <div className=' lg:w-1/2 md:flex md:flex-col md:w-full sm:w-full sm:mt-0 '>
-            <div className='lg:pl-14  lg:pr-20 md:p-10 sm:p-14  sm:pb-0 p-10'>
-                <h1 className='z-10 mb-5 text-left leading-normal font-semibold xl:text-4xl lg:text-4xl md:text-3xl text-2xl shop-page-heading inline-block primary-border border-b-4'>Trial Version</h1>
-                <p className=' text-left z-10 leading-8 mt-0 text1 lg:mr-10 ' >
+            <div>
+
+                <h1 className='z-10 mb-5 text-left leading-normal font-semibold xl:text-4xl lg:text-4xl md:text-3xl text-2xl shop-page-heading inline-block primary-border border-b-4 md:mt-7 sm:mt-5 mt-4
+                '>  <a className=' cursor-pointer' href='/trialversion'>Trial Version</a></h1>
+                <p className=' text-left z-10 leading-8 mt-0 text1  ' >
                     <div> With the free trial version of the storlytics software you will be able to create and simulate AC and DC couple energy storage projects! </div>
                     <div> With the Battery Profile Creator user can select the type of application:
                         <ul>
@@ -33,7 +35,7 @@ function Midsection() {
                             </li>
                         </ul>
 
-                        <table className=' justify-center m-auto border text-center rounded-xl w-3/4 xl:mt-5 '>
+                        <table className=' justify-center m-auto border text-center rounded-xl w-3/4 xl:mt-5 mt-5 '>
                             <thead>
                                 <th className='shop-page-heading p-2 '> Trial
 
@@ -62,19 +64,22 @@ function Midsection() {
             </div></div>
 
     </div>
-        <div data-aos='fade-up' className='main div lg:h-3/4 w-full  lg:flex lg:flex-row md:flex md:flex-col flex-wrap ' >
+        <div data-aos='fade-up' className='main div lg:h-3/4 w-full  lg:flex lg:flex-row md:flex md:flex-col flex-wrap lg:p-20 lg:pt-0 md:p-16 md:pt-0 sm:p-10 sm:pt-0  p-7 pt-0' >
             <div className=' lg:w-1/2 md:w-full lg:h-full  '>
-                <img className=' lg:p-0   sm:p-5 sm:pb-0 container lg:w-3/4 w-3/5 lg:ml-32 lg:mt-20 md:m-auto sm:m-auto m-auto' src={computerimg} />
+                <img className='w-full lg:mt-20 ' src={computerimg} />
             </div>
             <div className=' lg:w-1/2 md:flex md:flex-col md:w-full sm:w-full sm:mt-0 '>
-                <div className='lg:pl-14  lg:pr-20 md:p-10 sm:p-14  sm:pb-0 lg:mt-0 lg:pt-0 p-10'>
-                    <h1 className='z-10 lg:mt-8  text-left leading-normal font-semibold xl:text-4xl lg:text-4xl md:text-3xl text-2xl shop-page-heading mb-5 inline-block primary-border border-b-4  '>Single User </h1>
-                    <p className=' text-left z-10 leading-normal mt-0 text1 lg:mr-10 ' >
+                <div>
+
+                    <h1 className='z-10 lg:mt-8 md:mt-7  text-left leading-normal font-semibold xl:text-4xl lg:text-4xl md:text-3xl text-2xl shop-page-heading mb-5 inline-block primary-border border-b-4  sm:mt-5 mt-4  '> 
+                    <a href='/Singleuser'>  Single User  </a>
+                   </h1>
+                    <p className=' text-left z-10 leading-normal mt-0 text1 ' >
 
                         <div className='leading-8'>
                             With the Single-User purchase customers can utilize the software for an entire year! The package includes license for one machine only. For multiple users please look at the corporate license
 
-                            <table className=' xl:mt-5 justify-center m-auto border text-center rounded-xl w-3/4 '>
+                            <table className=' xl:mt-5 justify-center m-auto border text-center rounded-xl w-3/4 mt-5'>
                                 <thead>
                                     <th className=' shop-page-heading p-2 ' > Single-User
 

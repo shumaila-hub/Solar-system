@@ -2,10 +2,14 @@ import React, { useState } from 'react';
 // import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './navbar.css';
-import Dropdown from './Dropdown';
 import logo from '../../static/images/logo.webp';
 
+import HomeDropdown from './Dropdowns/homedropdown';
+import ShopDropdown from './Dropdowns/Shopdropdown';
+import AboutusDropdown from './Dropdowns/aboutusmenu';
+import DownloadDropdown from './Dropdowns/downloaddropdown';
 function Navbar() {
+  
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
 
@@ -27,6 +31,7 @@ function Navbar() {
       setDropdown(false);
     }
   };
+  
   return (
     <>
       <nav className='navbar w-full fixed z-50'>
@@ -41,12 +46,13 @@ function Navbar() {
         </div>
 
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+
           <li className='nav-item'
-            onMouseEnter={onMouseEnter}
-            onMouseLeave={onMouseLeave}>
+           >
             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
               Home<i className='fas fa-caret-down' />
             </Link>
+            {/* {dropdown && <HomeDropdown />} */}
           </li>
           
           <li
@@ -61,9 +67,13 @@ function Navbar() {
             >
               Shop<i className='fas fa-caret-down' />
             </Link>
-            {dropdown && <Dropdown />}
+            {/* {dropdown && <ShopDropdown />} */}
           </li>
-          <li className='nav-item'>
+
+          <li className='nav-item'
+           onMouseEnter={onMouseEnter}
+           onMouseLeave={onMouseLeave}
+          >
             <Link
               to='/download'
               className='nav-links'
@@ -71,6 +81,7 @@ function Navbar() {
             >
             Download <i className='fas fa-caret-down' />
             </Link>
+            {/* {dropdown && <DownloadDropdown />} */}
           </li>
           <li className='nav-item'>
             <Link
@@ -81,6 +92,7 @@ function Navbar() {
               Contact Us
             </Link>
           </li>
+
           <li className='nav-item'>
             <Link
               to='/knowledge-base'
@@ -102,8 +114,9 @@ function Navbar() {
             >
               About Us<i className='fas fa-caret-down' />
             </Link>
-            {dropdown && <Dropdown />}
+            {/* {dropdown && <AboutusDropdown />} */}
           </li>
+
         </ul>
         {/* <Button /> */}
       </nav>

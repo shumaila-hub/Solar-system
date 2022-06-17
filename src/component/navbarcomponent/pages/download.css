@@ -5,6 +5,9 @@
     color: gray;
     /* font-size:  0.85rem; */
 }
+.cover-gradient{
+    height: 36rem;
+}
 @media screen and (min-width : 320) {
     .heading{
         margin-top: 60px;
