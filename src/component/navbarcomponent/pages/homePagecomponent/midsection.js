@@ -27,7 +27,7 @@ function MidSection() {
 
                 </div></div>
             <div className=' lg:w-1/2 md:w-full md:mt-10 sm:mt-5   mt-5  '>
-                <img className='   xl:mt-14 lg:mt-10 h-3/4 ' src={oursoftware} />
+                <img className='   xl:mt-14 lg:mt-10 lg:h-3/4 ' src={oursoftware} />
             </div>
 
         </div>

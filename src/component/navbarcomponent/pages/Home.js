@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 // import '../../App.css';
-import bckvideo from '../../../static/video/background.mp4';
+import bckvideo from '../../../static/video/Website_background_video.mp4';
 import './home.css';
 import img1 from '../../../static/images/carousel_1.webp';
 import MidSection from './homePagecomponent/midsection';
@@ -19,14 +19,15 @@ export default function Home() {
       <div className=' w-full h-full'>
         <video muted loop autoPlay className=' top-10 xl:top-0 lg:top-0 md:top-0 sm:top-0 videobg w-full relative   opacity-80  object-cover  ' src={bckvideo} >
         </video>
-        
+        <div className=' home-cover-gradient top-5 bg-gradient-to-r from-blue-900 to-gray-500 w-full absolute -z-50'> 
+        </div>
        
        
       </div>
 
       <div data-aos='fade-up' className='flex lg:flex-row flex-col lg:p-0 lg:pl-20 lg:pr-20 xl:pl-20 xl:pr-20   md:pl-20 md:pr-20    sm:mb-0 homepage-heading absolute z-10 xl:top-2/4 lg:top-2/4  md:top-2/4 sm:top-2/4 sm:pl-10 sm:pr-10 top-28 pl-5 pr-0'>
 
-        <h1 className='  uppercase font-semibold  text-black w-full m-auto pt-0 
+        <h1 className='  uppercase font-semibold  text-white w-full m-auto pt-0 
         lg:text-left  lg:pr-0 xl:pb-0 lg:leading-10 md:leading-8  leading-5 lg:pb-0  lg:text-5xl  lg:w-1/2
         xl:text-6xl 
          md:text-4xl 
@@ -34,7 +35,7 @@ export default function Home() {
           Energy Storage Made Simple
 
         </h1>
-        <div className='lg:w-1/2 w-full text-black flex  flex-col justify-center xl:p-10 lg:pt-0 lg:pr-0 lg:leading-10 xl:leading-10 md:leading-8 leading-4 '>
+        <div className='lg:w-1/2 w-full text-white flex  flex-col justify-center xl:p-10 lg:pt-0 lg:pr-0 lg:leading-10 xl:leading-10 md:leading-8 leading-4 '>
           <p className=' lg:text-2xl md:text-2xl xl:text-2xl text-base md:mt-2   '>
             A Power Simulation Tool for Modeling Battery Energy Storage Systems
 

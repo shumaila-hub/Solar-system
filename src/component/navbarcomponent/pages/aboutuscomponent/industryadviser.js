@@ -14,7 +14,7 @@ function Adviser()
             </div>
 
             <div className=' flex lg:flex-row  flex-col w-full md:mt-5 '>
-                <di className='lg:w-1/2 box1 lg:flex lg:flex-col w-full  rounded-lg shadow-lg pr-7 pl-7  '>
+                <di className='lg:w-1/2 box1 lg:flex lg:flex-col w-full  rounded-lg shadow-lg pr-7 pl-7 lg:m-10  '>
 
                 <div className='w-1/4  m-auto '>
                         <img className=' shadow-lg ' src={adviserimage1} />
@@ -27,7 +27,7 @@ function Adviser()
 
                 </di>
 
-                <div className='lg:w-1/2 box1 lg:flex lg:flex-col w-full  rounded-lg shadow-lg pr-7 pl-7 md:mt-8 sm:mt-5 mt-5 lg:mt-0 '>
+                <div className='lg:w-1/2 box1 lg:flex lg:flex-col w-full  rounded-lg shadow-lg pr-7 pl-7 md:mt-8 sm:mt-5 mt-5  lg:m-10 '>
 
                     <div className=' w-1/4  m-auto '>
                         <img className=' shadow-lg' src={adviserimage1} />
