@@ -1,5 +1,5 @@
 import React from 'react';
-import homebottomimg from '../../../../static/images/Studio_Project (1).jpeg';
+import homebottomimg from '../../../../static/images/DSM_flow_New.png';
 function Bottom() {
     const texts = ['Storlytics leverages more than 20 years of battery energy storage projects development to simplify modeling BESSs', ' Input CSV format files for expected battery dispatch profile ',
         'Specify the number of battery modules, racks and inverters to match power and energy needed in provided Point of Interconnect (POI) profile using the "Sizing Assist Tool"', ' Simulate performance of specified battery energy storage system and plug and chug designs to reach optimal performance" ', ' Simulate performance of specified battery energy storage system and plug and chug designs to reach optimal performance" ', 'Create CSV files with 8760s (Hourly or sub-hourly) of important system parameters like power flow at battery, inverter and point of interconnect (POI)'];
@@ -15,7 +15,7 @@ function Bottom() {
 
                         Storlytics leverages more than 20 years of battery energy storage projects development to simplify modeling BESSs 
                         <div className='mt-5 '>
-                            {texts.map(text => <li className=' hover:shadow-lg leading-8  '> {text}  </li>)}
+                            {texts.map(text => <li className='  leading-8  '> {text}  </li>)}
                         </div>
                     </p>
 

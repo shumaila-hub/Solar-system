@@ -1,6 +1,6 @@
 import React,{useEffect} from 'react';
-import adviserimage from '../../../../static/images/adviser1.webp';
-import adviserimage1 from '../../../../static/images/R.webp';
+import adviserimage from '../../../../static/images/Sherif.png';
+import adviserimage1 from '../../../../static/images/Jason.jpg';
 import Aos from 'aos';
 import '../../../../../node_modules/aos/dist/aos.css';
 function Adviser()
@@ -16,21 +16,21 @@ function Adviser()
             <div className=' flex lg:flex-row  flex-col w-full md:mt-5 '>
                 <di className='lg:w-1/2 box1 lg:flex lg:flex-col w-full  rounded-lg shadow-lg pr-7 pl-7 lg:m-10  '>
 
-                <div className='w-1/4  m-auto '>
-                        <img className=' shadow-lg ' src={adviserimage1} />
+                <div className='lg:w-1/4  w-full  '>
+                        <img className=' shadow-lg  lg:w-80 lg:h-36 md:h-40 h-28 lg:ml-40 m-auto' src={adviserimage1} />
                     </div>
                     <div className=' '>
-                        <h1 className=' heading text-center leading-8 font-semibold text-lg mb-5'>Jason Groenewold</h1>
+                        <h1 className=' heading text-center leading-8 font-semibold text-lg mb-5 mt-5'>Jason Groenewold</h1>
                         <p className=' text1 lg:p-5 lg:pt-0 pb-5  '>Jason is currently the president of Common Square, LLC. He brings to Storlytics along with him a tremendous amount of experience in the renewable energy development space. Jason oversaw development, construction and operations for a rapidly growing portfolio of projects at Pine Gate Renewables and hired and trained staff to implement growth strategies its growth strategy. Prior to joining Pine Gate Renewables, Jason spearheaded the solar development team at Duke Energy Corporation and led them to the development of more than 300MW of solar projects in North Carolina and throughout Duke's regulated footprint.
                         </p>
                     </div>
 
                 </di>
 
-                <div className='lg:w-1/2 box1 lg:flex lg:flex-col w-full  rounded-lg shadow-lg pr-7 pl-7 md:mt-8 sm:mt-5 mt-5  lg:m-10 '>
+                <div className='lg:w-1/2 box1 lg:flex lg:flex-col w-full  rounded-lg shadow-lg pr-7 pl-7 md:mt-10 sm:mt-10 mt-5  lg:m-10 '>
 
-                    <div className=' w-1/4  m-auto '>
-                        <img className=' shadow-lg' src={adviserimage1} />
+                    <div className=' lg:w-1/4 w-full '>
+                        <img className=' shadow-lg  lg:w-80 lg:h-36  md:h-40 h-28 lg:ml-40 m-auto ' src={adviserimage} />
                     </div>
                     <div className=' '>
                         <h1 className='heading text-center leading-8 font-semibold text-lg mb-5 mt-5'>Dr. Sherif A. Abdelrazek

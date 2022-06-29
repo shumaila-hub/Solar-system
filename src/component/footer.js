@@ -34,20 +34,20 @@ function Footer() {
                         <ul class="social-nav flex-row flex xl:float-right lg:float-right md:float-right sm:float-right ">
                             <li>
                                 <a href="https://twitter.com/storlytics" target="_blank">
-                                <img className=' w-10 h-10' src={twitter} />
+                                <img className=' w-10 h-10 hover:shadow-green-700 hover:shadow-lg ' src={twitter} />
 
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/company/storlytics" target="_blank">
                                 
-                                    <img className=' w-10 h-10' src={linkedin} />
+                                    <img className=' w-10 h-10 hover:shadow-green-700 hover:shadow-lg' src={linkedin} />
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.youtube.com/channel/UCgyxkGuz2X_jIximCXtk15w" target="_blank">
                                    
-                                    <img className='  w-10 h-10' src={youtube} />
+                                    <img className='  w-10 h-10 hover:shadow-green-700 hover:shadow-lg' src={youtube} />
                                 </a>
                             </li>
                         </ul>

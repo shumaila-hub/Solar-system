@@ -1,4 +1,4 @@
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1800px) {
     .main-div-box{
         width: 100%;
         height: 100%;
@@ -9,7 +9,7 @@
       .main-div-box .box{
           width: calc( 430px - 30px);
           height: calc( 300px - 30px);
-          background-image: url('../../../../static/images/TWAICEified_Street_3-1024x767.webp');
+          background-image: url('../../../../static/images/iconbackground.jpg');
       }
        .main-div-box  .box .boxes{
           width: calc( 430px - 30px);
@@ -26,14 +26,14 @@
       }
       .main-div-box .box .icon{
           position: absolute;
-          top: 60px;
-          left: 100px;
-          width: 45%;
-          height: 50%;
-       background-color: #608bcf;
+          top: 50px;
+          left: 70px;
+          width: 60%;
+          height: 60%;
+       background-color: #04ac4e ;
           transition: 0.5s;
-          z-index: 1;
-          /* opacity: 0.4; */
+          /* z-index: 1; */
+        
       }
       .main-div-box .box:hover .icon{
           top: 20px;
@@ -44,7 +44,9 @@
       }
       .main-div-box .box .icon .box-img1
       {
-          top: 30%;
+        width: 70px;
+        height: 70px;
+          top: 10%;
           left: 35%;
           position: absolute;
           z-index: 1;
@@ -53,6 +55,8 @@
       .main-div-box .box:hover .icon .box-img1
       {
           position: absolute;
+          width: 70px;
+          height: 70px;
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
@@ -60,7 +64,18 @@
           transition: 0.5s;
           color: azure;
           z-index: 1;
+      } 
+       .main-div-box .box .icon .title
+      { text-align: center;
+          top: 60%;
+          position: absolute;
+        
       }
+      .main-div-box .box:hover .icon .title
+      {
+    display: none;
+      }
+      
       .main-div-box .box:hover .icon .box-img1
       {
           font-size: 40px;
@@ -82,7 +97,7 @@
           z-index: 1;
       }  
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1040px) {
    
     .main-div-box{
         display: flex;
@@ -105,16 +120,41 @@
       
     }
     .main-div-box .box .icon{
-        left: 134px;
-        width: 58%;
+        position: absolute;
+        top: 50px;
+        left: 70px;
+        width: 70%;
+        height: 60%;
+    }
+    .main-div-box .box .icon{
+        position: absolute;
+        top: 60px;
+        left: 180px;
+        width: 50%;
+        height: 60%;
+    
       
     }
     .main-div-box .box .icon .box-img1
     {
         left: 44%;  
     }
+    .main-div-box .box .icon .title
+    {
+         text-align: center;
+         position: absolute;
+        top: 60%;
+        z-index: 1;
+    }
+    .main-div-box .box:hover .icon .title
+    {
+  display: none;
+    }
 }
+@media screen and (max-width : 770) {
 
+    
+}
 @media screen and (max-width:640px) {
    
     .main-div-box{

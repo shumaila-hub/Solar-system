@@ -23,9 +23,39 @@ margin-bottom: 0;
     }  
    
 }
-@media (min-width:1024px) {
+@media (max-width:1300px) {
     .home-cover-gradient{
         height: 46rem;
+    }
+}
+@media (max-width:1300px) {
+    .home-cover-gradient{
+        height: 36rem;
+    }
+}
+@media (max-width:1020px) {
+    .home-cover-gradient{
+        height: 30rem;
+    }
+}
+@media (max-width:800px) {
+    .home-cover-gradient{
+        height: 25rem;
+    }
+}
+@media (max-width:700px) {
+    .home-cover-gradient{
+        height: 23rem;
+    }
+}
+@media (max-width: 600px) {
+    .home-cover-gradient{
+        height: 20rem;
+    }
+}
+@media (max-width:470px) {
+    .home-cover-gradient{
+        height: 15rem;
     }
 }
 

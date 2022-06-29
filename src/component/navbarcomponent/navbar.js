@@ -50,36 +50,36 @@ function Navbar() {
           <li className='nav-item'
            >
             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-              Home<i className='fas fa-caret-down' />
+              Home<i className='fas fa-caret-down ml-2' />
             </Link>
             {/* {dropdown && <HomeDropdown />} */}
           </li>
           
           <li
             className='nav-item'
-            onMouseEnter={onMouseEnter}
-            onMouseLeave={onMouseLeave}
+            // onMouseEnter={onMouseEnter}
+            // onMouseLeave={onMouseLeave}
           >
             <Link
               to='/shop'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Shop<i className='fas fa-caret-down' />
+              Shop<i className='fas fa-caret-down ml-2' />
             </Link>
             {/* {dropdown && <ShopDropdown />} */}
           </li>
 
           <li className='nav-item'
-           onMouseEnter={onMouseEnter}
-           onMouseLeave={onMouseLeave}
+          //  onMouseEnter={onMouseEnter}
+          //  onMouseLeave={onMouseLeave}
           >
             <Link
               to='/download'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-            Download <i className='fas fa-caret-down' />
+            Download <i className='fas fa-caret-down ml-2' />
             </Link>
             {/* {dropdown && <DownloadDropdown />} */}
           </li>
@@ -96,7 +96,7 @@ function Navbar() {
           <li className='nav-item'>
             <Link
               to='/knowledge-base'
-              className='nav-links'
+              className='nav-links '
               onClick={closeMobileMenu}
             >
               Knowledge base
@@ -112,9 +112,9 @@ function Navbar() {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              About Us<i className='fas fa-caret-down' />
+              About Us<i className='fas fa-caret-down ml-2' />
             </Link>
-            {/* {dropdown && <AboutusDropdown />} */}
+            {dropdown && <AboutusDropdown />}
           </li>
 
         </ul>

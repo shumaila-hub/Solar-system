@@ -18,7 +18,7 @@ const text =['Storlytics is not meant to run on a server or on a Remote Desktop 
 
                 <div className='text1  list-inside text-base md:pt-2 sm:pt-2  '>
 
-                {text.map(text1 => <li className=' hover:shadow-md  list-inside lg:leading-10 md:leading-10 leading-8  '> {text1}  </li>)}
+                {text.map(text1 => <li className=' list-inside lg:leading-10 md:leading-10 leading-8  '> {text1}  </li>)}
                     
                 </div></div>
 

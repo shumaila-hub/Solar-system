@@ -7,7 +7,7 @@ function KnowledgeBase() {
   return (
     <div className='mt-0'>
       <div className='flex w-full lg:flex-row  flex-col pb-10 md:p-16 sm:p-10 p-8'>
-        <div className=' lg:w-1/2 border-2 lg:p-5 md:p-5 sm:p-5 p-3 lg:h-[25rem] w-full lg:m-5  lg:mt-32 md:mt-28 sm:mt-24 mt-28'>
+        <div className=' lg:w-1/2 border-2 lg:p-5 md:p-5 sm:p-5 p-3 lg:h-[35rem] w-full lg:m-5  lg:mt-32 md:mt-28 sm:mt-24 mt-28'>
           <div className='flex flex-col'>
             <div>
               <span className=' text-blue-600 lg:text-lg md:text-lg text-base hover:text-blue-800 '> JUNE 2, 2020</span> </div>
@@ -21,7 +21,7 @@ function KnowledgeBase() {
             </div>
           </div>
         </div>
-        <div className=' lg:w-1/2 border-2 lg:h-[25rem]  lg:p-5 md:p-5 sm:p-5 p-3 w-full lg:m-5 lg:mt-32 md:mt-10 sm:mt-10 mt-8'>
+        <div className=' lg:w-1/2 border-2 lg:h-[35rem]  lg:p-5 md:p-5 sm:p-5 p-3 w-full lg:m-5 lg:mt-32 md:mt-10 sm:mt-10 mt-8'>
           <div className='flex flex-col'>
             <div>
               <span className=' text-blue-600 lg:text-lg md:text-lg text-base hover:text-blue-800'> JUNE 2, 2020</span> </div>
