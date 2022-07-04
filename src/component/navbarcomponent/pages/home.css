@@ -23,7 +23,27 @@ margin-bottom: 0;
     }  
    
 }
-@media (max-width:1300px) {
+@media (max-width:3000px) {
+    .home-cover-gradient{
+        height: 88rem;
+    }
+}
+@media (max-width:2600px) {
+    .home-cover-gradient{
+        height: 80rem;
+    }
+}
+@media (max-width:2400px) {
+    .home-cover-gradient{
+        height: 72rem;
+    }
+}
+@media (max-width:2050px) {
+    .home-cover-gradient{
+        height: 60rem;
+    }
+}
+@media (max-width:1650px) {
     .home-cover-gradient{
         height: 46rem;
     }

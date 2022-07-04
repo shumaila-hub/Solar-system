@@ -13,8 +13,8 @@ function Bottom() {
             </div>
             <div className=' lg:w-1/2 md:flex md:flex-col md:w-full sm:w-full '>
                 <div>
-                    <h1 className='z-10 lg:mt-8 md:mt-7 sm:mt-5 mt-4 text-left leading-8 font-semibold  heading-color xl:text-4xl lg:text-4xl md:text-3xl text-2xl mb-5 inline-block primary-border border-b-4  '>Corporate </h1>
-                    <p className=' text-left z-10 leading-8 mt-0 text1' >
+                    <h1 className='z-10 lg:mt-8 md:mt-7 sm:mt-5 mt-4 text-left leading-10 font-semibold  heading-color 2xl:text-5xl xl:text-4xl lg:text-4xl md:text-3xl text-2xl mb-5 inline-block primary-border border-b-4  '>Corporate </h1>
+                    <p className=' text-left z-10 leading-8 mt-0 lg:text1 md:text1 sm:text1 2xl:text-2xl text-gray-400 ' >
                     Corporate is a mutli-user license for the Storlytics software which supports upto 20 users. Additional benefits include system design consultation where the user/customer can leverage Storlytics engineers' assistance on system design and modeling. Customers can procure 10 design consultation from Storlytics over the valid license year.
 
                         <div>

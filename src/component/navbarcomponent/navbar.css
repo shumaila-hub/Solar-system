@@ -163,7 +163,16 @@
     .navbar-logo {
       top: -40%;
       left: -70px;
-      width: 60% ;
+      width: 80% ;
       padding: 10px;
+    }
+  }
+  @media screen and (min-width: 1280px)
+  {
+    .navbar-logo {
+      top: -40%;
+      left: -70px;
+      width: 50% ;
+      padding: 20px;
     }
   }
