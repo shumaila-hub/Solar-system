@@ -12,8 +12,8 @@ function AboutusDropdown() {
       <div className='flex flex-row w-full leading-10 p-5  '>
 
         <div className=' w-1/4 text-white p-5 justify-start border-r-2 border-white'>
-          <div className='text-2xl font-semibold mt-3  '> <a href='/aboutus'>Our Story</a></div>
-          <div className=' mt-5  text-sm font-normal'>  <p>It has been identified that energy storage is critical to achieving a low-carbon sustainable future. Energy storage offers unmatched flexibility in operation that can be utilized to improve overall grid reliability and stability.
+          <div className='xl:text-2xl lg:text-2xl 2xl:text-3xl  font-semibold 2xl:mt-3   '> <a href='/aboutus'>Our Story</a></div>
+          <div className=' mt-5 xl:text-sm lg:text-sm 2xl:text-base font-normal'>  <p>It has been identified that energy storage is critical to achieving a low-carbon sustainable future. Energy storage offers unmatched flexibility in operation that can be utilized to improve overall grid reliability and stability.
           </p></div>
           <div>
             <button className=' text-base font-semibold border-2 border-sky-600 rounded-lg p-3 pl-5 pr-5 mt-5 hover:shadow-lg hover:shadow-blue-600'  > <a href='/aboutus'>LEARN MORE </a>  </button>

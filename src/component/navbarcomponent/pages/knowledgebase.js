@@ -4,6 +4,10 @@ import articlelogo from '../../../static/images/icons/rethinkresearch-logo.png';
 // import '../../App.css';
 import Pagination from '@material-ui/lab/Pagination';
 function KnowledgeBase() {
+
+
+
+
   return (
     <div className='mt-0'>
       <div className='flex w-full lg:flex-row  flex-col pb-10 md:p-16 sm:p-10 p-8'>

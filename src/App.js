@@ -2,6 +2,7 @@
 
 import Header from './component/header';
 import Footer from './component/footer';
+import DataFetching from './component/DataFetching';
 
 
 function App() {
@@ -11,6 +12,8 @@ function App() {
     
 
      <Footer/>
+
+     {/* <DataFetching/> */}
     </div>
   );
 }

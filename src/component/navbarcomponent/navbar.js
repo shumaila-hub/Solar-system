@@ -8,12 +8,20 @@ import HomeDropdown from './Dropdowns/homedropdown';
 import ShopDropdown from './Dropdowns/Shopdropdown';
 import AboutusDropdown from './Dropdowns/aboutusmenu';
 import DownloadDropdown from './Dropdowns/downloaddropdown';
+import { use } from 'echarts';
 function Navbar() {
   
   const [click, setClick] = useState(false);
+  const [clicked, setClicked] = useState(false);
+
+  const [aboutdropdown, setAboutDropdown] = useState(false);
+  const [downloaddropdown, setdownloadDropdown] = useState(false);
   const [dropdown, setDropdown] = useState(false);
+  const [Homedropdown , setHomeDropdown] =useState(false)
 
   const handleClick = () => setClick(!click);
+  const handleClicked = () => setClicked(!clicked);
+
   const closeMobileMenu = () => setClick(false);
 
   const onMouseEnter = () => {
@@ -32,6 +40,51 @@ function Navbar() {
     }
   };
   
+  const onAboutMouseEnter = () => {
+    if (window.innerWidth < 960) {
+      setAboutDropdown(false);
+    } else {
+      setAboutDropdown(true);
+    }
+  };
+
+  const onAboutMouseLeave = () => {
+    if (window.innerWidth < 960) {
+      setAboutDropdown(false);
+    } else {
+      setAboutDropdown(false);
+    }
+  };
+  const onHomeMouseEnter = () => {
+    if (window.innerWidth < 960) {
+      setHomeDropdown(false);
+    } else {
+      setHomeDropdown(true);
+    }
+  };
+
+  const onHomeMouseLeave = () => {
+    if (window.innerWidth < 960) {
+      setHomeDropdown(false);
+    } else {
+      setHomeDropdown(false);
+    }
+  };
+  const ondownloadMouseEnter = () => {
+    if (window.innerWidth < 960) {
+      setdownloadDropdown(false);
+    } else {
+      setdownloadDropdown(true);
+    }
+  };
+
+  const ondownloadMouseLeave = () => {
+    if (window.innerWidth < 960) {
+      setdownloadDropdown(false);
+    } else {
+      setdownloadDropdown(false);
+    }
+  };
   return (
     <>
       <nav className='navbar w-full fixed z-50'>
@@ -48,20 +101,20 @@ function Navbar() {
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
 
           <li className='nav-item'
-          // onMouseEnter={onMouseEnter}
-          // onMouseLeave={onMouseLeave}
+          onMouseEnter={onHomeMouseEnter}
+          onMouseLeave={onHomeMouseLeave}
 
            >
             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
               Home<i className='fas fa-caret-down ml-2' />
             </Link>
-            {dropdown && <HomeDropdown />}
+            {Homedropdown && <HomeDropdown />}
           </li>
           
           <li
             className='nav-item'
-            // onMouseEnter={onMouseEnter}
-            // onMouseLeave={onMouseLeave}
+            onMouseEnter={onMouseEnter}
+            onMouseLeave={onMouseLeave}
           >
             <Link
               to='/shop'
@@ -70,12 +123,12 @@ function Navbar() {
             >
               Shop<i className='fas fa-caret-down ml-2' />
             </Link>
-            {/* {dropdown && <ShopDropdown />} */}
+            {dropdown && <ShopDropdown />}
           </li>
 
           <li className='nav-item'
-          //  onMouseEnter={onMouseEnter}
-          //  onMouseLeave={onMouseLeave}
+           onMouseEnter={ondownloadMouseEnter}
+           onMouseLeave={ondownloadMouseLeave}
           >
             <Link
               to='/download'
@@ -84,7 +137,7 @@ function Navbar() {
             >
             Download <i className='fas fa-caret-down ml-2' />
             </Link>
-            {/* {dropdown && <DownloadDropdown />} */}
+            {downloaddropdown && <DownloadDropdown />}
           </li>
           <li className='nav-item'>
             <Link
@@ -107,8 +160,8 @@ function Navbar() {
           </li>
           <li
             className='nav-item'
-            onMouseEnter={onMouseEnter}
-            onMouseLeave={onMouseLeave}
+            onMouseEnter={onAboutMouseEnter}
+            onMouseLeave={onAboutMouseLeave}
           >
             <Link
               to='/aboutus'
@@ -117,7 +170,7 @@ function Navbar() {
             >
               About Us<i className='fas fa-caret-down ml-2' />
             </Link>
-            {dropdown && <AboutusDropdown />}
+            {aboutdropdown && <AboutusDropdown />}
           </li>
 
         </ul>
