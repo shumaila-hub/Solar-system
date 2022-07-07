@@ -5,9 +5,9 @@ function Bottom() {
         'Specify the number of battery modules, racks and inverters to match power and energy needed in provided Point of Interconnect (POI) profile using the "Sizing Assist Tool"', ' Simulate performance of specified battery energy storage system and plug and chug designs to reach optimal performance" ', ' Simulate performance of specified battery energy storage system and plug and chug designs to reach optimal performance" ', 'Create CSV files with 8760s (Hourly or sub-hourly) of important system parameters like power flow at battery, inverter and point of interconnect (POI)'];
 
     return (<div className=' '>
-        <div className=' w-full  lg:flex lg:flex-row md:flex md:flex-col flex-wrap 2xl:p-40 2xl:pt-20 lg:p-20  md:p-10 sm:p-10  p-5  '>
+        <div className=' w-full  lg:flex lg:flex-row md:flex md:flex-col flex-wrap  2xl:pt-0  md:p-0 sm:p-0  p-5  2xl:p-20 xl:p-10 lg:p-10 '>
 
-            <div className=' lg:w-1/2 md:flex md:flex-col md:w-full sm:w-full sm:mt-10    '>
+            <div className=' 2xl:w-1/2 xl:w-1/2 lg:w-1/2 md:flex md:flex-col md:w-full sm:w-full sm:mt-10    '>
 
                 <div className=' lg:mt-0 leading-10 '>
 
@@ -25,7 +25,7 @@ function Bottom() {
                 </div>
             </div>
             <div className=' lg:w-1/2 md:w-full lg:h-full lg:mt-32 md:mt-10 sm:mt-8 mt-5 '>
-                <img className='  w-auto 2xl:p-10 xl:p-0 md:p-0   p-5  xl:pt-0  ' src={homebottomimg} />
+                <img className='  w-auto 2xl:p-10 2xl:pt-0 xl:p-10 md:p-5 lg:10   p-5  xl:pt-0  ' src={homebottomimg} />
             </div>
 
         </div>

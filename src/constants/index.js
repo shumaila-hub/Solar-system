@@ -1,0 +1,3 @@
+export const USERS_API_URL = process.env.REACT_APP_USERS_API_URL;
+export const PAYMENT_API_URL = process.env.REACT_APP_PAYMENT_API_URL;
+export const RECAPTCHA_SITE_KEY = process.env.REACT_APP_GOOGLE_RECAPTCHA_SITE_KEY

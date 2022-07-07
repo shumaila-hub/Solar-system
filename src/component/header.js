@@ -10,6 +10,7 @@ import Navbar from './navbarcomponent/navbar';
 import KnowledgeBase from './navbarcomponent/pages/knowledgebase';
 import Aboutus from './navbarcomponent/pages/aboutus';
 import Download from './navbarcomponent/pages/download';
+import ScrollToTop from './scrollToTop';
 
 
 function Header() {
@@ -17,7 +18,9 @@ function Header() {
     <div>
       
     
-    <Router>
+    <Router >
+      <ScrollToTop/>
+      
    <Navbar/>
       <Switch>
         <Route path='/' exact component={Home} />

@@ -9,9 +9,9 @@ function KnowledgeBase() {
 
 
   return (
-    <div className='mt-0'>
+    <div className='mt-0 container m-auto'>
       <div className='flex w-full lg:flex-row  flex-col pb-10 md:p-16 sm:p-10 p-8'>
-        <div className=' lg:w-1/2 border-2 lg:p-5 md:p-5 sm:p-5 p-3 lg:h-[35rem] w-full lg:m-5  lg:mt-32 md:mt-28 sm:mt-24 mt-28'>
+        <div className=' lg:w-1/2 border-2 lg:p-5 md:p-5 sm:p-5 p-3 lg:h-[38rem] xl:h-[34rem] w-full lg:m-5  lg:mt-32 md:mt-28 sm:mt-24 mt-28'>
           <div className='flex flex-col'>
             <div>
               <span className=' text-blue-600 lg:text-lg md:text-lg text-base hover:text-blue-800 '> JUNE 2, 2020</span> </div>
@@ -25,7 +25,7 @@ function KnowledgeBase() {
             </div>
           </div>
         </div>
-        <div className=' lg:w-1/2 border-2 lg:h-[35rem]  lg:p-5 md:p-5 sm:p-5 p-3 w-full lg:m-5 lg:mt-32 md:mt-10 sm:mt-10 mt-8'>
+        <div className=' lg:w-1/2 border-2 lg:h-[38rem] xl:h-[34rem]  lg:p-5 md:p-5 sm:p-5 p-3 w-full lg:m-5 lg:mt-32 md:mt-10 sm:mt-10 mt-8'>
           <div className='flex flex-col'>
             <div>
               <span className=' text-blue-600 lg:text-lg md:text-lg text-base hover:text-blue-800'> JUNE 2, 2020</span> </div>
@@ -40,7 +40,7 @@ function KnowledgeBase() {
           </div>
         </div>
       </div>
-      <div className='m-auto flex  justify-center'> <button className=' bg-blue-600 shadow-lg rounded-3xl lg:w-52 lg:h-14 md:w-52 md:h-14 sm:w-48 sm:h-12 w-48 h-12 text-white text-center sm:mt-0 text-base  hover:bg-blue-500 hover:opacity-90 hover:text-white  hover:shadow-slate-400   hover:shadow-2xl  '> SEE ALL </button> </div>
+      <div className='m-auto flex  justify-center'> <button className=' bg-blue-600 shadow-lg rounded-3xl xl:w-52 2xl:w-60 2xl:h-16 lg:w-52 lg:h-14 md:w-52 md:h-14 sm:w-48 sm:h-12 w-48 h-12 text-white text-center sm:mt-0 text-xl  hover:bg-blue-500 hover:opacity-90 hover:text-white  hover:shadow-slate-400   hover:shadow-2xl  2xl:text-2xl xl:text-xl lg:text-lg '> SEE ALL </button> </div>
       <div className=' flex flex-col lg:p-20 leading-10 md:p-16 sm:p-10 p-8'>
         <div className=' flex justify-center'> <h1 className=' font-semibold text-4xl'> Press</h1></div>
         <div className=' flex justify-start mt-10'> <p className=' font-semibold lg:text-3xl md:text-3xl sm:text-2xl text-xl'>EnerVenue raises $100M to accelerate clean energy using nickel-hydrogen batteries.</p></div>

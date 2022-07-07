@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import icon1 from '../../../../static/images/icons/Battery-Icon.jpg';
 import icon2 from '../../../../static/images/icons/recycle.png';
 import icon3 from '../../../../static/images/icons/data-search-interface-symbol-of-a-bars-graphic-with-a-magnifier-tool.png';
@@ -8,10 +8,15 @@ import reporticon from '../../../../static/images/icons/report.png';
 import UseCase from '../../../../static/images/icons/workflow.png';
 import TimeSeries from '../../../../static/images/icons/TimeSeries-Icon.png';
 import Output from '../../../../static/images/icons/output.png';
+import Aos from 'aos';
+import '../../../../../node_modules/aos/dist/aos.css';
 import './boxes.css';
 function Boxes() {
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+      }, []);
     return (
-        <div className=' m-0 lg:m-10 xl:m-10 p-0 md:m-0  flex flex-col items-center '>
+        <div data-Aos='fade-up' className=' m-0 lg:m-10 xl:m-10 p-0 md:m-0  flex flex-col items-center '>
             <div className=''> <h1 className=' text-center xl:text-4xl lg:text-4xl md:text-3xl text-2xl font-semibold heading-color  primary-border border-b-4 m-auto justify-center mb-5 mt-5  '> <a href='#'> Software Features</a> </h1></div>
 
             <div className=' main-div-box lg:grid grid-cols-3 md:grid-cols-1 md:grid-rows-3 sm:grid-cols-1 sm:grid-rows-3  sm:w-full relative max-w-7xl  z-40'>

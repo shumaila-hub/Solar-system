@@ -10,14 +10,14 @@ import AboutusDropdown from './Dropdowns/aboutusmenu';
 import DownloadDropdown from './Dropdowns/downloaddropdown';
 import { use } from 'echarts';
 function Navbar() {
-  
+
   const [click, setClick] = useState(false);
   const [clicked, setClicked] = useState(false);
 
   const [aboutdropdown, setAboutDropdown] = useState(false);
   const [downloaddropdown, setdownloadDropdown] = useState(false);
   const [dropdown, setDropdown] = useState(false);
-  const [Homedropdown , setHomeDropdown] =useState(false)
+  const [Homedropdown, setHomeDropdown] = useState(false)
 
   const handleClick = () => setClick(!click);
   const handleClicked = () => setClicked(!clicked);
@@ -39,7 +39,7 @@ function Navbar() {
       setDropdown(false);
     }
   };
-  
+
   const onAboutMouseEnter = () => {
     if (window.innerWidth < 960) {
       setAboutDropdown(false);
@@ -85,15 +85,20 @@ function Navbar() {
       setdownloadDropdown(false);
     }
   };
+
+
   return (
     <>
       <nav className='navbar w-full fixed z-50'>
-{/* For logo section */}
-        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-         <img className=' navbar-logo logo' src={logo} alt="logo"/>
+         {/* For logo section */}
+        <div className='navbar-logo'> 
+       
+        <Link to='/'  onClick={closeMobileMenu}>
+          <img  src={logo} alt="logo" />
         </Link>
+        </div>
 
-   {/* For Navbaar */}
+        {/* For Navbaar */}
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
@@ -101,16 +106,16 @@ function Navbar() {
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
 
           <li className='nav-item'
-          onMouseEnter={onHomeMouseEnter}
-          onMouseLeave={onHomeMouseLeave}
+            onMouseEnter={onHomeMouseEnter}
+            onMouseLeave={onHomeMouseLeave}
 
-           >
+          >
             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
               Home<i className='fas fa-caret-down ml-2' />
             </Link>
             {Homedropdown && <HomeDropdown />}
           </li>
-          
+
           <li
             className='nav-item'
             onMouseEnter={onMouseEnter}
@@ -127,15 +132,15 @@ function Navbar() {
           </li>
 
           <li className='nav-item'
-           onMouseEnter={ondownloadMouseEnter}
-           onMouseLeave={ondownloadMouseLeave}
+            onMouseEnter={ondownloadMouseEnter}
+            onMouseLeave={ondownloadMouseLeave}
           >
             <Link
               to='/download'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-            Download <i className='fas fa-caret-down ml-2' />
+              Download <i className='fas fa-caret-down ml-2' />
             </Link>
             {downloaddropdown && <DownloadDropdown />}
           </li>
@@ -152,7 +157,7 @@ function Navbar() {
           <li className='nav-item'>
             <Link
               to='/knowledge-base'
-              className='nav-links '
+              className='nav-linksknw '
               onClick={closeMobileMenu}
             >
               Knowledge base

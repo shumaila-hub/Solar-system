@@ -36,12 +36,11 @@
 }
 .aboutus-circle1 .aboutus-content{
     height: calc(50% - 50%);
-    width: calc( 350% - 0%);
+    width: calc( 353% - 0%);
     transition: 0.5s;
 }
 .aboutus-circle1:hover .aboutus-content{
     top:70px;
-
     opacity: 1;
 }
 .aboutus-circle2 .aboutus-content{
@@ -80,5 +79,9 @@
  }
  .aboutus-content p{
     color: gray;
+ }
+ @media screen and (max-width: 770px) {
+    
+    
  }
  

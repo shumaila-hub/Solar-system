@@ -2,14 +2,14 @@ import React, { useEffect } from 'react';
 import '../download.css';
 import Aos from 'aos';
 import '../../../../../node_modules/aos/dist/aos.css';
-import Midsection from './downloadmidsection';
-function Bottom() {
+
+function DownloadBottom() {
     useEffect(() => {
         Aos.init({ duration: 2000 });
     }, []);
     return (
-        <div data-aos='fade-up'>
-            <Midsection />
+       
+    
             <div data-aos='fade-up' className=' flex flex-col justify-center items-center w-full m-auto text1 lg:p-20 lg:pt-10  md:p-16 md:pt-8 sm:p-10 sm:pt-5 p-5 ' >
 
                 <div> <h1 className='font-semibold heading-color xl:text-4xl mb-10 lg:text-4xl md:text-3xl sm:text-2xl text-2xl primary-border border-b-4'> Required Computer Configuration</h1> </div>
@@ -75,7 +75,7 @@ function Bottom() {
 
                 </div>
             </div>
-        </div>);
+        );
 }
 
-export default Bottom;
+export default DownloadBottom;

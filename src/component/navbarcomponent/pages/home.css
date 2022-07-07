@@ -23,6 +23,11 @@ margin-bottom: 0;
     }  
    
 }
+@media (max-width:3500px) {
+    .home-cover-gradient{
+        height: 100rem;
+    }
+}
 @media (max-width:3000px) {
     .home-cover-gradient{
         height: 88rem;
