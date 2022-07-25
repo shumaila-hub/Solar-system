@@ -53,7 +53,7 @@ function Midsection() {
                                 <tr className=' bg-gray-200'> Purchase cost</tr>
                                 <tr> Free</tr>
                                 <tr className=' bg-gray-200'> Yearly renewal fee</tr>
-                                <tr> Free</tr>
+                                <tr> NA</tr>
                             </tbody>
 
                         </table>
@@ -67,9 +67,7 @@ function Midsection() {
     </div>
         <div data-aos='fade-up' className='main div lg:h-3/4 w-full  lg:flex lg:flex-row md:flex md:flex-col flex-wrap  
         lg:p-10  md:p-7  sm:p-5  p-5 ' >
-            <div className=' lg:w-1/2 md:w-full lg:h-full  '>
-                <img className='w-full lg:mt-20  xl:p-0 2xl:p-0 lg:p-0 p-5' src={computerimg} />
-            </div>
+           
             <div className=' lg:w-1/2 md:flex md:flex-col md:w-full sm:w-full sm:mt-0 '>
                 <div>
 
@@ -97,9 +95,9 @@ function Midsection() {
                                     <tr className=' bg-gray-200'> System design consultation </tr>
                                     <tr> None</tr>
                                     <tr className=' bg-gray-200'> Purchase cost</tr>
-                                    <tr> $750</tr>
+                                    <tr> $3000</tr>
                                     <tr className=' bg-gray-200'> Yearly renewal fee</tr>
-                                    <tr> $750</tr>
+                                    <tr> $2000</tr>
                                 </tbody>
 
                             </table>
@@ -108,6 +106,9 @@ function Midsection() {
 
 
                 </div></div>
+                <div className=' lg:w-1/2 md:w-full lg:h-full  '>
+                <img className='w-full lg:mt-20  xl:p-0 2xl:p-0 lg:p-0 p-5' src={computerimg} />
+            </div>
 
         </div>
       

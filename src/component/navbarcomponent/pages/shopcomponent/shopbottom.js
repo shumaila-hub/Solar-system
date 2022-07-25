@@ -30,13 +30,13 @@ function ShopBottom() {
                                     <tr className=' bg-gray-200'>Validity</tr>
                                     <tr>1 year extendable</tr>
                                     <tr className=' bg-gray-200'>Number of Licenses</tr>
-                                    <tr>20</tr>
+                                    <tr>15</tr>
                                     <tr className=' bg-gray-200'>Software support</tr>
                                     <tr > Yes</tr>
                                     <tr className=' bg-gray-200'> System design consultation </tr>
                                     <tr> 10 per year</tr>
                                     <tr className=' bg-gray-200'> Purchase cost</tr>
-                                    <tr> $10,000</tr>
+                                    <tr> $30,000</tr>
                                     <tr className=' bg-gray-200'> Yearly renewal fee</tr>
                                     <tr> $10,000</tr>
                                 </tbody>

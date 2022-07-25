@@ -121,6 +121,17 @@
       background-color: #04ac4e ;
       border-radius: 0;
     }
+    .nav-linksknw {
+      text-align: center;
+      padding: 2rem;
+      width: 100%;
+      display: table;
+    }
+  
+    .nav-linksknw:hover {
+      background-color: #04ac4e ;
+      border-radius: 0;
+    }
     .menu-icon {
       display: block;
       position: absolute;
@@ -189,3 +200,11 @@
    padding: 40px;
     }
   } 
+  @media screen and (max-width: 640px)
+  {
+    .navbar-logo img {
+    
+ 
+   padding: 5px;
+    }
+  }

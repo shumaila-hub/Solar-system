@@ -27,7 +27,7 @@ function Download() {
                     <div>
                         <button className=' lg:mt-16 md:mt-7 sm:mt-5 mt-5  bg-sky-600   mr-auto xl:text-xl 2xl:text-xl lg:text-lg xl:w-52 2xl:w-56 xl:h-12 2xl:h-14 lg:w-52 w-44 h-10 lg:h-12 md:w-48 md:h-10 sm:w-44 rounded-lg hover:shadow-2xl leading-10
                         
-                        hover:bg-blue-500 hover:opacity-90 hover:text-white  hover:shadow-slate-400  cursor-pointer'>
+                        hover:opacity-90 hover:text-white  hover:shadow-slate-400 hover:bg-green-600  cursor-pointer'>
                             <a className='' href='#'> Click to Download </a>
                         </button>
 

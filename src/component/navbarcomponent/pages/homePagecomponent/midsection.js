@@ -16,11 +16,11 @@ function MidSection() {
 
                         <button className=' btn1  rounded-lg text-white xl:w-52 lg:w-52 md:w-48 sm:w-44 lg:h-12 xl:h-12 md:h-10 w-44 h-10 xl:mr-4 mr-2 
                         lg:leading-10 md:leading-8 leading-normal 
-                        lg:text-xl md:text-lg xl:text-xl sm:text-base text-sm hover:shadow-2xl hover:bg-blue-600 hover:text-white hover:shadow-slate-400 '>
+                        lg:text-xl md:text-lg xl:text-xl sm:text-base text-sm hover:shadow-2xl  hover:text-white hover:shadow-slate-400 hover:bg-green-600 '>
                              Download Now!<i class='fas fa-arrow-right ml-2'></i>
                         </button>
 
-                        <button className=' btn1 rounded-lg text-white xl:w-48 lg:w-48 md:w-48 lg:h-12 xl:h-12 md:h-10 w-44 h-10 lg:leading-10 md:leading-8 leading-normal lg:text-xl md:text-lg xl:text-xl sm:text-base text-sm sm:w-44 md:mt-0 sm:mt-0 mt-5 lg:mt-0 hover:shadow-2xl  hover:bg-blue-600 hover:text-white hover:shadow-slate-400'>
+                        <button className=' btn1 rounded-lg text-white xl:w-48 lg:w-48 md:w-48 lg:h-12 xl:h-12 md:h-10 w-44 h-10 lg:leading-10 md:leading-8 leading-normal lg:text-xl md:text-lg xl:text-xl sm:text-base text-sm sm:w-44 md:mt-0 sm:mt-0 mt-5 lg:mt-0 hover:shadow-2xl  hover:bg-green-600 hover:text-white hover:shadow-slate-400'>
                             Request Demo
                         </button>
                     </div>

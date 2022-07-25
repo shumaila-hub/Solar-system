@@ -17,7 +17,7 @@ export default function Home() {
   return (
 <div> 
     <div className=' w-full h-full m-auto justify-center flex'>
-      <video muted loop autoPlay playsInline className=' m-auto top-10 xl:top-0 lg:top-0 md:top-0 sm:top-0 videobg w-full relative   opacity-80  object-cover  ' src={bckvideo} >
+      <video muted loop autoPlay playsInline  className=' m-auto top-10 xl:top-0 lg:top-0 md:top-0 sm:top-0 videobg w-full relative   opacity-80  object-cover  ' src={bckvideo} >
       </video>
       <div className='  home-cover-gradient top-5 bg-gradient-to-r from-blue-900 to-gray-500 w-full absolute -z-50'>
       </div>
@@ -39,12 +39,12 @@ export default function Home() {
           <div className='flex flex-row lg:mt-5 xl:mt-5 md:mt-4 mt-2 w-full xl:justify-center lg:justify-center md:justify-start sm:justify-start  justify-start  text-white'>
 
             <button className=' xl:leading-10 lg:leading-10 leading-normal cursor-pointer xl:text-xl 2xl:text-2xl lg:text-lg  xl:w-56 2xl:w-64 xl:h-14 2xl:h-16 lg:w-52 lg:h-12 md:w-48 md:h-10  rounded-lg w-40 sm:h-10 h-8 sm:ml-4 mr-4 mt-0 lg:mt-4 text-center sm:mt-0 text-base sm:w-40
-             bg-blue-600 hover:bg-blue-500 hover:opacity-90 hover:text-white  hover:shadow-slate-400   hover:shadow-2xl   '>
+             bg-blue-600 hover:bg-green-600 hover:opacity-90 hover:text-white  hover:shadow-slate-400   hover:shadow-2xl   '>
               Download Now!
             </button>
 
             <button className=' bg-blue-600 xl:leading-10 lg:leading-10 leading-normal  cursor-pointer sm:ml-4 mr-4 lg:mt-4 mt-0 sm:mt-0 xl:text-xl 2xl:text-2xl lg:text-lg xl:w-56 2xl:w-64 xl:h-14 2xl:h-16 lg:w-52 lg:h-12 md:w-48 sm:w-40 md:h-10 sm:h-10 rounded-lg w-40 h-8 text-center text-base 
-             hover:shadow-2xl hover:bg-blue-500 hover:opacity-90 hover:text-white  hover:shadow-slate-400  '>
+             hover:shadow-2xl hover:bg-green-600 hover:opacity-90 hover:text-white  hover:shadow-slate-400  '>
               Request Demo
             </button>
           </div>

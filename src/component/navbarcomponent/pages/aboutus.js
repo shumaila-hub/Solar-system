@@ -23,10 +23,10 @@ function AboutUs() {
 
                     <div className=' lg:mt-10'>
                         <div className='flex lg:flex-row md:flex-row sm:flex-row flex-col'>
-                            <button className='  bg-sky-600 rounded-lg xl:text-xl 2xl:text-2xl lg:text-lg xl:w-52 2xl:w-56 2xl:h-14 xl:h-12 lg:w-48 lg:h-12 md:w-40 md:h-10 w-40 h-10  mr-6 hover:shadow-2xl hover:bg-blue-500 hover:opacity-90 hover:text-white  hover:shadow-slate-400 '>
+                            <button className=' hover:bg-green-600  bg-sky-600 rounded-lg xl:text-xl 2xl:text-2xl lg:text-lg xl:w-52 2xl:w-56 2xl:h-14 xl:h-12 lg:w-48 lg:h-12 md:w-40 md:h-10 w-40 h-10  mr-6 hover:shadow-2xl  hover:opacity-90 hover:text-white  hover:shadow-slate-400 '>
                                 <a href='#'> Contact Us  </a>
                             </button>
-                            <button className='  bg-sky-600 rounded-lg ml-0 sm:ml-4 mr-4 mt-4 sm:mt-0 xl:text-xl 2xl:text-2xl lg:text-lg xl:w-52 2xl:w-56 2xl:h-14 xl:h-12 lg:w-48 lg:h-12 md:w-40 md:h-10 w-40 h-10 hover:shadow-2xl hover:bg-blue-500 hover:opacity-90 hover:text-white  hover:shadow-slate-400 '>
+                            <button className=' hover:bg-green-600  bg-sky-600 rounded-lg ml-0 sm:ml-4 mr-4 mt-4 sm:mt-0 xl:text-xl 2xl:text-2xl lg:text-lg xl:w-52 2xl:w-56 2xl:h-14 xl:h-12 lg:w-48 lg:h-12 md:w-40 md:h-10 w-40 h-10 hover:shadow-2xl   hover:opacity-90 hover:text-white  hover:shadow-slate-400 '>
                                 <a href='#'> Watch Video  </a>
                             </button>
                         </div>
