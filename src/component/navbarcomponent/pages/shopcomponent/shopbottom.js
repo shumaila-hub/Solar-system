@@ -7,7 +7,7 @@ function ShopBottom() {
         Aos.init({duration: 2000});
       }, []);
     return (  <div data-aos='fade-up'>
-      <div className=' lg:h-3/4 w-full  lg:flex lg:flex-row md:flex md:flex-col flex-wrap lg:p-10 lg:pb-20 lg:pt-0 md:p-7 md:pb-20 md:pt-0 sm:p-5 sm:pb-20 pb-10 sm:pt-0 p-5 pt-0' >
+      {/* <div className=' lg:h-3/4 w-full  lg:flex lg:flex-row md:flex md:flex-col flex-wrap lg:p-10 lg:pb-20 lg:pt-0 md:p-7 md:pb-20 md:pt-0 sm:p-5 sm:pb-20 pb-10 sm:pt-0 p-5 pt-0' >
             <div className=' lg:w-1/2 md:w-full lg:h-full  '>
                 <img className='w-full lg:mt-20  xl:p-0 2xl:p-0 lg:p-0 p-5' src={computerimg} />
             </div>
@@ -48,7 +48,7 @@ function ShopBottom() {
 
                 </div></div>
 
-        </div>
+        </div> */}
     </div>  );
 }
 

@@ -19,17 +19,17 @@ function ShopDropdown() {
                     <div className=' w-1/3  border-l-2 border-white'>
 
                         <div> <img className=' h-40 mt-12 w-fit m-auto' src={trailimg} /> </div>
-                        <div className=' text-white text-lg font-normal m-auto text-center mt-3'><a href='/trialversion'>Trial Version</a>  </div>
+                        <div className=' text-white text-lg font-normal m-auto text-center mt-3'><a href='/shop'>Trial Version</a>  </div>
                     </div>
                     <div className=' w-1/3'>
 
                         <div> <img className=' h-40 mt-12 w-fit m-auto' src={trailimg} /> </div>
-                        <div className=' text-white text-lg font-normal text-center mt-3'><a href='#'>Single User</a>  </div>
+                        <div className=' text-white text-lg font-normal text-center mt-3'><a href='/shop'>Single User</a>  </div>
                     </div>
                     <div className=' w-1/3'>
 
                         <div> <img className=' h-40 mt-12 w-fit m-auto' src={trailimg} /> </div>
-                        <div className=' text-white text-lg font-normal text-center mt-3'><a href='#'>Corporate</a>  </div>
+                        <div className=' text-white text-lg font-normal text-center mt-3'><a href='/shop'>Corporate</a>  </div>
                     </div>
                 </div>
             </div>

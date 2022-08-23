@@ -23,7 +23,7 @@ function Midsec() {
 
         </div>
 
-        <div className='w-full 2xl:flex 2xl:flex-row lg:flex lg:flex-row inline-block 2xl:p-20 2xl:pt-0 xl:p-16 xl:pt-0 lg:p-16 lg:pt-0 md:p-14 md:pt-0 p-6 pt-0 sm:p-10 sm:pt-0 '>
+        <div className='w-full 2xl:flex 2xl:flex-row lg:flex lg:flex-row inline-block 2xl:p-20  xl:p-16  lg:p-16 lg:pt-0 md:p-14 md:pt-0 p-6 pt-0 sm:p-10 sm:pt-0 '>
             <div className=' lg:w-1/2  '>
                 <div className=' lg:pr-0 lg:mt-0 '>
                     <h1 className='z-10 lg:mt-0 lg:mb-2 mt-5  text-left leading-8 font-semibold lg:text-4xl 2xl:text-5xl xl:text-4xl text-3xl mb-5 border-b-4 inline-block primary-border heading-color'>Who are we</h1>
@@ -40,7 +40,7 @@ function Midsec() {
                 </div>
             </div>
             <div className=' lg:w-1/2  '>
-                <img className='lg:mt-20 md:mt-5 sm:mt-5 mt-5  ' src={offer} />
+                <img className='lg:mt-20 xl:mt-16 md:mt-5 sm:mt-5 mt-5  ' src={offer} />
             </div>
 
         </div>

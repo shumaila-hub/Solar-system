@@ -17,7 +17,7 @@ function Boxes() {
       }, []);
     return (
         <div data-Aos='fade-up' className=' m-0 lg:m-10 xl:m-10 p-0 md:m-0  flex flex-col items-center '>
-            <div className=''> <h1 className=' text-center xl:text-4xl lg:text-4xl md:text-3xl text-2xl font-semibold heading-color  primary-border border-b-4 m-auto justify-center mb-5 mt-5  '> <a href='#'> Software Features</a> </h1></div>
+            <div className=''> <h1 className=' headingcolor text-center 2xl:text-5xl xl:text-4xl lg:text-4xl md:text-3xl text-2xl font-semibold heading-color  primary-border border-b-4 m-auto justify-center mb-5 mt-5   '> <a href='#'> Software Features</a> </h1></div>
 
             <div className=' main-div-box lg:grid grid-cols-3 md:grid-cols-1 md:grid-rows-3 sm:grid-cols-1 sm:grid-rows-3  sm:w-full relative max-w-7xl  z-40'>
 
@@ -136,7 +136,7 @@ function Boxes() {
                     <div className='icon rounded-2xl '> 
 
                     <img className='box-img1 mr-10 ' src={Output} />
-                    <p className=' title absolute top-3/4 text-white font-semibold text-xl lg:ml-0  md:ml-0 sm:ml-24 ml-10 w-full'> Output Data</p></div>
+                    <p className=' title absolute top-3/4 text-white font-semibold text-xl lg:ml-0  md:ml-0 sm:ml-24 ml-0 w-full'> Output Data</p></div>
                     <div className='content'>
                         <h3 className='m-0 p-0 text-white font-semibold text-base lg:text-xl xl:text-xl md:text-xl mt-3'>Output Data</h3>
                         <p className=' m-0 p-0 text-white  text-sm mt-3'>Results of energy storage system simulations raw data available in sub-hourly, hourly (8760s) and daily formats
